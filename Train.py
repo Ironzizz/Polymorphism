@@ -5,4 +5,4 @@ class Train( Transportation ):
       self.noStation = noStation
 
    def find_cost( self ):
-      return 5 * noStation
+      return 5 * self.noStation
