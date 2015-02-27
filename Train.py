@@ -1,3 +1,5 @@
+from Transportation import Transportation
+
 class Train( Transportation ):
 
    def __init__( self, start, end, distance, noStation ):
